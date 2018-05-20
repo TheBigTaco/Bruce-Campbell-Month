@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WebApplication1": {
+    "BruceCampbellMonth": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
