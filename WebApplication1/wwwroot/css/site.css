@@ -68,3 +68,11 @@
 .community {
     background-color: purple;
 }
+
+.calendar-cell {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}

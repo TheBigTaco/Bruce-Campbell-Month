@@ -13,6 +13,18 @@ namespace BruceCampbellMonth.Controllers
             return View();
         }
 
+        [HttpGet("/forum")]
+        public ActionResult Forum()
+        {
+            return View();
+        }
+
+        [HttpGet("/calendar")]
+        public ActionResult Calendar()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
