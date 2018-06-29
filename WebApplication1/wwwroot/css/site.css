@@ -70,9 +70,15 @@
 }
 
 .calendar-cell {
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 50px;
+    float: left;
+    height: 200px;
+    width: 200px;
     border: 1px solid black;
+}
+
+.calendar-container {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1400px;
 }
