@@ -10,7 +10,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     background-color: black;
 }
 
@@ -19,14 +19,24 @@
     text-align: center;
     font-size: 60px;
     font-weight: bolder;
+    margin: 20px;
 }
 
 .banner {
-    width: 100%;
-    height: 20%;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
+    width: 60%;
+    height: 330px;
+    background-image: url('../images/banner.gif');
+    background-size: cover;
+    margin: 20px;
+    padding: 70px;
+    align-self: center;
+}
+
+.link-countdown {
+    background-color: slategrey;
+    height: 50px;
+    width: 60%;
+    align-self: center;
 }
 
 /* Home */
@@ -34,10 +44,57 @@
 .base {
     display: flex;
     height: 100%;
+    flex-direction: column;
 }
 
-.base div {
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.big-today {
+    width: 40%;
+    height: 300px;
     border: 1px solid white;
+    margin: 5px;
+    background-image: url('../images/JoAT.jpg');
+    background-size: cover;
+}
+
+.twitter {
+    width: 20%;
+    height: 300px;
+    border: 1px solid blue;
+    margin: 5px;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.small-week-1, .small-week-2, .small-week-3 {
+    width: 20%;
+    height: 300px;
+    border: 1px solid green;
+    margin: 5px;
+}
+
+.small-week-1 {
+    background-image: url('../images/Briscoe.jpg');
+    background-size: cover;
+}
+
+.small-week-2 {
+    background-image: url('../images/Cloudy.jpg');
+    background-size: cover;
+}
+
+.small-week-3 {
+    background-image: url('../images/Bubba.jpg');
+    background-size: cover;
 }
 
 /* Calender */ 
@@ -46,7 +103,7 @@
     float: left;
     height: 200px;
     width: 200px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .calendar-container {
