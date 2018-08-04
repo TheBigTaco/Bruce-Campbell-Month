@@ -25,11 +25,10 @@
 .banner {
     width: 60%;
     height: 330px;
-    background-image: url('../images/banner.gif');
-    background-size: cover;
     margin: 20px;
     padding: 70px;
     align-self: center;
+    border: solid red 1px;
 }
 
 .link-countdown {
@@ -73,20 +72,25 @@
     justify-content: center;
 }
 
-.small-week-1, .small-week-2, .small-week-3 {
-    width: 20%;
+.small-week-1, .small-week-2, .small-week-3, .small-week-4 {
+    width: 30%;
     height: 300px;
     border: 1px solid green;
     margin: 3px;
+    display: flex;
+    flex-direction: row;
 }
 
-    .small-week-1 p, .small-week-2 p, .small-week-3 p {
-        font-size: 80px;
-    }
+.double {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 img {
     max-width: 100%;
     max-height: 100%;
+    z-index: 0;
 }
 
 /* Calender */ 
